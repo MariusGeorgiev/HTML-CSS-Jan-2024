@@ -1,9 +1,9 @@
 /* TODO: style the html */
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 
 
 body {
-font-family: sans-serif, Montserrat;
+font-family: Montserrat, sans-serif;
 padding: 16px;
 }
 
