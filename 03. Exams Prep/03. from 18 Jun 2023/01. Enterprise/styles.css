@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    
+}
+
+body {
+    font: 14px/1 Inter;
+    background-color: rgb(216, 216, 216);
+}
+
+article {
+    margin: 4em;
+    width: 1700px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+img {
+    width: 545px;
+    height: 290px;
+    background-size: cover;
+}
+
+
+section {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.content{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.content :first-child {
+    font-size: 1.8em;
+    color: grey;
+    font-weight: 700;
+    
+}
+
+.content :nth-child(2) {
+    font-size: 2em;
+    line-height: 0.2;
+}
+
+.content :last-child {
+    margin-top: 3em;
+    line-height: 1.5;
+}
+
+
+.footer {
+    margin-top: 2em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer :first-child {
+    font-weight: 600;
+}
+
+.footer>p {
+    color: grey;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.person img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
